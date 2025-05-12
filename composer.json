@@ -10,19 +10,24 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Joseph Estefane",
-            "email": "estefanejoe@gmail.com"
+            "name": "farshchian2090",
+            "email": "farshchian2090@yahoo.com"
         }
     ],
     "require": {
-        "php": ">=7.3",
+        "php": ">=8.1",
         "ext-pdo": "*",
         "ext-json": "*",
+        "illuminate/database": "^12.0",
         "geo-io/wkb-parser": "^1.0",
         "jmikola/geojson": "^1.0"
     },
     "require-dev": {
-        "laravel/laravel": "^10.0",
+
+        "phpunit/phpunit": "^9.5",
+        "laravel/laravel": "^8.0",
+        "doctrine/dbal": "^2.5",
+        "laravel/browser-kit-testing": "^2.0",
         "mockery/mockery": "^1.3"
     },
     "autoload": {
